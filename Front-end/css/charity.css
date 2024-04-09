@@ -1,0 +1,79 @@
+.hero {
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+}
+button.btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(123, 192, 96, 0.747);
+}
+button.btn:hover{
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+.background{
+    background-color: rgb(255, 201, 255);
+}
+.heading{
+    position: relative;
+    bottom: 110px;
+}
+.heading2{
+    position: relative;
+    bottom: 30px;
+}
+.heading3{
+    position: relative;
+    bottom: 210px;
+}
+.heading4{
+    position: relative;
+    bottom: 320px;
+}
+.col-md-6 img{
+    filter: brightness(60%);
+
+}
+.para{
+    position: relative;
+    bottom: 110px;
+}
+.para2{
+    position: relative;
+    bottom: 35px;
+}
+.para3{
+    position: relative;
+    bottom: 210px;
+}
+.para4{
+    position: relative;
+    bottom: 320px;
+}
+.card-img-top{
+    height: 280px;
+}
+.card {
+    width: 100%; /* Adjust the width of the cards */
+    box-shadow: 4px 4px 4px rgb(66, 66, 66);
+  }
+  
+  .card-img-top1 {
+    height: 180px; /* Adjust the height of the card images */
+    object-fit: cover;
+  }
+  @media only screen and (max-width: 600px) {
+    div.col-md-6 .img-fluid.deepesh {
+        position: relative;
+        top: 50%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    div.col-md-6 .deepesh {
+        position: relative;
+        top: 20%;
+        z-index: 2;
+    }
+  }

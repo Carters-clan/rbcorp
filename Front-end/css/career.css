@@ -1,0 +1,11 @@
+.card {
+    display: flex !important;
+}
+
+.main {
+    margin-left: 10rem !important;
+}
+
+.contact3 {
+    margin-left: 8rem;
+}

@@ -1,0 +1,98 @@
+  /* Your existing styles */
+/* 
+  body {
+    background-color: #cf47b9;
+background: url(./map_svg.svg);
+    padding: 20px;
+    height:100vh;
+} */
+
+.contact-form {
+    background-color: transparent;
+    opacity: 0.7;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 15px 10px rgba(182, 89, 146, 0.363);
+    height: 100%;
+
+}
+
+
+/* Add responsive styles as needed */
+
+.social-icons {
+    font-size: 30px;
+}
+
+
+.bg-blue{
+    background-image: linear-gradient( #0876b9,   #b14691);
+}
+.newsletter-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #d15ea1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+}
+.form-select{
+    width: 35%;
+}
+.input-group-prepend {
+    height: 100%;
+}
+
+.input-group-text {
+    width: 40px;
+    height: 100%;
+}
+
+.subscribe-btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.gap-10{
+    gap: 10px;
+}
+.form-group{
+    padding: 10px;
+}
+
+.row{
+
+    display: flex;
+    
+    justify-content: center;
+
+}
+.row-container{
+    display: flex;
+    align-items: center;
+    padding-top: 140px;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:400px) {
+    .contact-form {
+    height:700px;
+}
+
+.row-container{
+    display: flex;
+    align-items: center;
+    padding-top: 140px;
+    justify-content: center;
+}
+
+}
+/* .map-container
+{
+    display:flex;
+    margin-top: 80%;
+    margin-right: 10%; 
+    
+   
+} */
