@@ -8,8 +8,9 @@
   text-align: center;
   display: flex;
   justify-content: center;
-  background-color: #d894c7;
+  background-color: rgb(1, 12, 63);
   align-items: center;
+  color: #cacacb;
 }
 
 .news {
@@ -33,12 +34,12 @@ input {
 .btn-success {
   height: 50px;
   width: 100px;
-  background-color: green !important;
+  background-color: #FF7D00 !important;
   font-weight: 700;
 }
 
 .btn-success:hover {
-  background-color: rgb(101, 193, 62) !important;
+  background-color: #e1ab07 !important;
 }
 
 .card:hover {
@@ -92,7 +93,7 @@ main {
 
 .carousel__item {
   position: absolute;
-  background: #eee;
+  background: #e0e0e1;
   top: 0;
   transition: all ease-in-out 800ms;
   display: grid;
