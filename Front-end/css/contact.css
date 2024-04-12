@@ -1,11 +1,3 @@
-  /* Your existing styles */
-/* 
-  body {
-    background-color: #cf47b9;
-background: url(./map_svg.svg);
-    padding: 20px;
-    height:100vh;
-} */
 
 .contact-form {
     background-color: transparent;
@@ -13,18 +5,77 @@ background: url(./map_svg.svg);
     margin: 20px auto;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 15px 10px rgba(182, 89, 146, 0.363);
+    box-shadow: 0 15px 10px rgba(89, 126, 182, 0.363);
     height: 100%;
 
 }
+/* contact hero start */
+.contact-hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
 
+#video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
 
-/* Add responsive styles as needed */
+.contact-hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+    padding: 20px;
+}
+
+.contact-hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.contact-hero-content h1 span {
+    font-size: 4rem;
+    color: #91d623;
+}
+
+.contact-hero-content p {
+    font-size: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .contact-hero-content {
+        padding: 10px;
+    }
+
+    .contact-hero-content h1 {
+        font-size: 1.2rem;
+    }
+
+    .contact-hero-content h1 span {
+        font-size: 1.5rem;
+    }
+
+    .contact-hero-content p {
+        font-size: 0.6rem;
+    }
+}
+
+/* contact hero end */
 
 .social-icons {
     font-size: 30px;
 }
-
 
 .bg-blue{
     background-image: linear-gradient( #0876b9,   #b14691);
@@ -63,7 +114,6 @@ background: url(./map_svg.svg);
 .row{
 
     display: flex;
-    
     justify-content: center;
 
 }
@@ -88,11 +138,3 @@ background: url(./map_svg.svg);
 }
 
 }
-/* .map-container
-{
-    display:flex;
-    margin-top: 80%;
-    margin-right: 10%; 
-    
-   
-} */

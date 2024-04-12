@@ -1,9 +1,66 @@
-.hero {
-    color: rgb(0, 0, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* buffet hero start */
+.buffet-hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
+
+#video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.buffet-hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+    padding: 20px;
+}
+
+.buffet-hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.buffet-hero-content h1 span {
+    font-size: 4rem;
+    color: #d6a323;
+}
+
+.buffet-hero-content p {
+    font-size: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .buffet-hero-content {
+        padding: 10px;
+    }
+
+    .buffet-hero-content h1 {
+        font-size: 1.2rem;
+    }
+
+    .buffet-hero-content h1 span {
+        font-size: 1.5rem;
+    }
+
+    .buffet-hero-content p {
+        font-size: 0.6rem;
+    }
+}
+
+/* buffet hero end */
 
 button.btn {
     color: rgb(255, 255, 255);
