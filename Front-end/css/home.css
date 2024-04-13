@@ -1,5 +1,94 @@
-.about-section {
-  margin-top: -100px;
+.header-wrapper {
+
+  display: flex;
+  height: 100lvh;
+}
+
+.header-carousel {
+  height: 100vh;
+  display: grid;
+  grid-template-areas: "stack";
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.slide {
+  display: block;
+  grid-area: stack;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+  width: 100%;
+}
+
+.slide img {
+  animation: panRight 10s ease-in-out infinite;
+  height: 110%;
+  position: absolute;
+  width: 110%;
+}
+
+@keyframes panUp {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-10%);
+  }
+}
+
+@keyframes panDown {
+  0% {
+    transform: translateY(-10%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes panRight {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-10%);
+  }
+}
+
+@keyframes panLeft {
+  0% {
+    transform: translateX(-10%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.hero {
+  position: absolute;
+  top: 0;
+
+}
+
+.hero-text {
+  margin-left: 50px;
+}
+
+.hero-text h1 {
+  color: black;
+}
+
+.hero-text h4 {
+  color: rgb(33, 33, 33);
+
+  .about-section {
+    margin-top: -100px;
+  }
 }
 
 .accHorizontal {
@@ -245,9 +334,11 @@
   transition: all 500ms ease;
 }
 
+
 @media screen and (max-width: 768px) {
   .flex-title {
     transform: rotate(0deg) !important;
+    font-size: 35px;
   }
 }
 
