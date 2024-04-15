@@ -59,103 +59,123 @@
         font-size: 0.6rem;
     }
 }
+
 /* service hero end */
-button.btn{
+button.btn {
     color: rgb(255, 255, 255);
     background-color: purple;
 }
-button.btn:hover{
+
+button.btn:hover {
     color: rgb(0, 0, 0);
     border: 1px solid black;
 }
-.background{
+
+.background {
     background-color: rgb(255, 201, 255);
     /* height: 1000px; */
 }
-.heading{
+
+.heading {
     position: relative;
     bottom: 110px;
 }
-.heading2{
+
+.heading2 {
     position: relative;
     bottom: 30px;
 }
-.heading3{
+
+.heading3 {
     position: relative;
     bottom: 210px;
 }
-.heading4{
+
+.heading4 {
     position: relative;
     bottom: 320px;
 }
-.col-md-6 img{
+
+.col-md-6 img {
     filter: brightness(60%);
 
 }
-.para{
+
+.para {
     position: relative;
     bottom: 110px;
 }
-.para2{
+
+.para2 {
     position: relative;
     bottom: 35px;
 }
-.para3{
+
+.para3 {
     position: relative;
     bottom: 210px;
 }
-.para4{
+
+.para4 {
     position: relative;
     bottom: 320px;
 }
-.card-img-top{
+
+.card-img-top {
     height: 280px;
 }
+
 .card {
-    width: 100%; /* Adjust the width of the cards */
+    width: 100%;
+    /* Adjust the width of the cards */
     box-shadow: 4px 4px 4px rgb(66, 66, 66);
-  }
-  
-  .card-img-top1 {
-    height: 180px; /* Adjust the height of the card images */
+}
+
+.card-img-top1 {
+    height: 180px;
+    /* Adjust the height of the card images */
     object-fit: cover;
-  }
-  @media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 600px) {
     div.col-md-6 .img-fluid.deepesh {
         position: relative;
         top: 50%;
     }
-  }
-  @media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 600px) {
     div.col-md-6 .deepesh {
         position: relative;
         top: 20%;
         z-index: 2;
     }
-  }
+}
 
 
 /* Service */
-  .btn-kn-mr{
-    border: 1px solid white ;
+.btn-kn-mr {
+    border: 1px solid white;
     color: white !important;
     background-color: #7F9F80 !important;
     cursor: pointer !important;
     z-index: 2;
-} 
- .btn-kn-mr:hover{
-    cursor:  pointer !important;
+}
+
+.btn-kn-mr:hover {
+    cursor: pointer !important;
     background-color: #FF9800 !important;
 }
 
-.intro-head-1{
+.intro-head-1 {
     color: #7F9F80;
 }
-.intro-head{
-    color: #FF9800 ;
+
+.intro-head {
+    color: #FF9800;
 }
 
 
-.card-1{
+.card-1 {
     height: 200px;
 }

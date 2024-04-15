@@ -10,6 +10,12 @@
     border-radius: 20px;
     box-shadow: 2px 2px 8px 2px rgb(128, 99, 99);
 }
+@media screen and (max-width:768px) {
+    .container1{
+        position: relative;
+        top: -20px;
+    }
+}
 
 /* about hero start */
 .about-hero {
@@ -41,12 +47,12 @@
 }
 
 .about-hero-content h1 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
 }
 .about-hero-content h1 span {
-    color: #1889be;
-    font-size: 3rem;
+    color: #1270c8;
+    font-size: 3.5rem;
 }
 .about-hero-content p {
     font-size: 1.5rem;

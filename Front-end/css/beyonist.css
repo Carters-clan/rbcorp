@@ -31,6 +31,7 @@
     font-size: 3rem;
     margin-bottom: 20px;
 }
+
 .beyonist-hero-content h1 span {
     font-size: 4rem;
     color: #d76464;
@@ -49,17 +50,20 @@
     .beyonist-hero-content h1 {
         font-size: 1.2rem;
     }
+
     .beyonist-hero-content h1 span {
         font-size: 1.5rem;
     }
+
     .beyonist-hero-content p {
         font-size: 0.6rem;
     }
 }
+
 /* beyonist hero end */
 
 button.btn {
-    background-color: #d76464 !important;
+    background-color: #d76464;
 }
 
 .background {
