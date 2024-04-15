@@ -9,21 +9,10 @@
     <link rel="stylesheet" href="/css/style.css" />
     <!-- dedicated -->
     <link rel="stylesheet" href="/css/blog.css" />
-    <!-- owl css -->
+    <!-- Swiper CSS -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- owl theme css -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
-      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css"
     />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -41,30 +30,18 @@
     />
     <!-- FAVICON -->
     <link rel="icon" href="/Images/logo-red.png" type="image/jpg" />
-
-    <!-- Basic stylesheet -->
-    <link rel="stylesheet" href="owl-carousel/owl.carousel.css" />
-
-    <!-- Default Theme -->
-    <link rel="stylesheet" href="owl-carousel/owl.theme.css" />
-
-    <!-- You can use latest version of jQuery  -->
-    <script src="jquery-1.9.1.min.js"></script>
-
-    <!-- Include js plugin -->
-    <script src="assets/owl-carousel/owl.carousel.js"></script>
   </head>
   <body>
     <div class="container-fluid vh-100 gx-0">
       <div class="blog-hero">
-      <video autoplay muted loop id="video-bg">
-        <source src="Images/blog-hero.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <div class="blog-hero-content">
-        <h1>Blog <span>Insights</span></h1>
-        <p>Think Different</p>
-      </div>
+        <video autoplay muted loop id="video-bg">
+          <source src="Images/blog-hero.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="blog-hero-content">
+          <h1>Blog <span>Insights</span></h1>
+          <p>Think Different</p>
+        </div>
       </div>
       <div class="container-fluid navbar-container head-ban fixed-top">
         <div class="container">
@@ -313,7 +290,7 @@
         <div class="search-container">
           <h2>SUBSCRIBE TO RB CORP</h2>
           <h3 style="color: #24dcd6">NEWS LETTER</h3>
-          <b><h4>Get the latest post deliverd right into your inbox</h4></b>
+          <b><h4>Get the latest post delivered right into your inbox</h4></b>
           <form action="/action_page.php">
             <input
               type="email"
@@ -329,109 +306,235 @@
     </div>
 
     <!-- More blogs -->
-    <main class="container">
-      <section class="section1 mb-5">
-        <div class="carousel__wrapper">
-          <h1 class="carousel__header">More Blogs</h1>
-          <div class="carousel__nav">
-            <div class="carousel__nav__item" data-direction="prev">
-              <svg
-                aria-hidden="true"
-                focusable="false"
-                viewBox="0 0 24 24"
-                role="img"
-                width="24px"
-                height="24px"
-                fill="none"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-width="1.5"
-                  d="M15.525 18.966L8.558 12l6.967-6.967"
-                ></path>
-              </svg>
+
+    <div class="slide-container swiper">
+      <div class="slide-content">
+        <div class="card-wrapper swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img
+                  src="https://tinypic.host/images/2022/12/19/img_avatar.png"
+                  alt=""
+                  class="card-img"
+                />
+              </div>
             </div>
-            <div class="carousel__nav__item" data-direction="next">
-              <svg
-                aria-hidden="true"
-                focusable="false"
-                viewBox="0 0 24 24"
-                role="img"
-                width="24px"
-                height="24px"
-                fill="none"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-width="1.5"
-                  d="M8.474 18.966L15.44 12 8.474 5.033"
-                ></path>
-              </svg>
+
+            <div class="card-content">
+              <h2 class="name">Hello</h2>
+              <p class="description">
+                The lorem text the section that contains header with having open
+                functionality. Lorem dolor sit amet consectetur adipisicing
+                elit.
+              </p>
+
+              <button class="button">View More</button>
             </div>
           </div>
-          <div class="carousel">
-            <div class="carousel__item carousel__item carousel__item--matcha">
-              <div class="card1" style="width: 15rem">
-                <img src="/Images/try.webp" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <p class="card-text p-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img
+                  src="https://tinypic.host/images/2022/12/19/img_avatar.png"
+                  alt=""
+                  class="card-img"
+                />
               </div>
             </div>
-            <div class="carousel__item carousel__item--strawberry">
-              <div class="card1" style="width: 15rem">
-                <img src="/Images/try.webp" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <p class="card-text p-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
+
+            <div class="card-content">
+              <h2 class="name">Mohamed Yousef</h2>
+              <p class="description">
+                The lorem text the section that contains header with having open
+                functionality. Lorem dolor sit amet consectetur adipisicing
+                elit.
+              </p>
+
+              <button class="button">View More</button>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img
+                  src="https://tinypic.host/images/2022/12/19/img_avatar.png"
+                  alt=""
+                  class="card-img"
+                />
               </div>
             </div>
-            <div class="carousel__item carousel__item--vanilla">
-              <div class="card1" style="width: 15rem">
-                <img src="/Images/try.webp" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <p class="card-text p-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
+
+            <div class="card-content">
+              <h2 class="name">Mohamed Yousef</h2>
+              <p class="description">
+                The lorem text the section that contains header with having open
+                functionality. Lorem dolor sit amet consectetur adipisicing
+                elit.
+              </p>
+
+              <button class="button">View More</button>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img
+                  src="https://tinypic.host/images/2022/12/19/img_avatar.png"
+                  alt=""
+                  class="card-img"
+                />
               </div>
             </div>
-            <div class="carousel__item carousel__item--mango">
-              <div class="card1" style="width: 15rem">
-                <img src="/Images/try.webp" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <p class="card-text p-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
+
+            <div class="card-content">
+              <h2 class="name">Mohamed Yousef</h2>
+              <p class="description">
+                The lorem text the section that contains header with having open
+                functionality. Lorem dolor sit amet consectetur adipisicing
+                elit.
+              </p>
+
+              <button class="button">View More</button>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img
+                  src="https://tinypic.host/images/2022/12/19/img_avatar.png"
+                  alt=""
+                  class="card-img"
+                />
               </div>
             </div>
-            <div class="carousel__item carousel__item--chocolate">
-              <div class="card1" style="width: 15rem">
-                <img src="/Images/try.webp" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <p class="card-text p-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
+
+            <div class="card-content">
+              <h2 class="name">Mohamed Yousef</h2>
+              <p class="description">
+                The lorem text the section that contains header with having open
+                functionality. Lorem dolor sit amet consectetur adipisicing
+                elit.
+              </p>
+
+              <button class="button">View More</button>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img
+                  src="https://tinypic.host/images/2022/12/19/img_avatar.png"
+                  alt=""
+                  class="card-img"
+                />
               </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Mohamed Yousef</h2>
+              <p class="description">
+                The lorem text the section that contains header with having open
+                functionality. Lorem dolor sit amet consectetur adipisicing
+                elit.
+              </p>
+
+              <button class="button">View More</button>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img
+                  src="https://tinypic.host/images/2022/12/19/img_avatar.png"
+                  alt=""
+                  class="card-img"
+                />
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Mohamed Yousef</h2>
+              <p class="description">
+                The lorem text the section that contains header with having open
+                functionality. Lorem dolor sit amet consectetur adipisicing
+                elit.
+              </p>
+
+              <button class="button">View More</button>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img
+                  src="https://tinypic.host/images/2022/12/19/img_avatar.png"
+                  alt=""
+                  class="card-img"
+                />
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Mohamed Yousef</h2>
+              <p class="description">
+                The lorem text the section that contains header with having open
+                functionality. Lorem dolor sit amet consectetur adipisicing
+                elit.
+              </p>
+
+              <button class="button">View More</button>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img
+                  src="https://tinypic.host/images/2022/12/19/img_avatar.png"
+                  alt=""
+                  class="card-img"
+                />
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Mohamed Yousef</h2>
+              <p class="description">
+                The lorem text the section that contains header with having open
+                functionality. Lorem dolor sit amet consectetur adipisicing
+                elit.
+              </p>
+
+              <button class="button">View More</button>
             </div>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+
+      <div class="swiper-button-next swiper-navBtn"></div>
+      <div class="swiper-button-prev swiper-navBtn"></div>
+    </div>
 
     <!-- FOOTER -->
-    <footer class="text-center text-lg-start text-muted footer">
+    <footer class="text-center text-lg-start text-muted footer mt-5">
       <!-- Section: Social media -->
       <section
         class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
@@ -626,163 +729,64 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <!-- Swiper JS -->
+    <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.js"></script>
+    <!--Uncomment this line-->
+    <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/script.js"></script>
     <script src="script.js"></script>
     <script>
-      // owl
-      class Carousel {
-        element = null;
-        buttonDisabled = false;
-        nav = null;
-        items = [];
-        size = 3; // number of items to show
-        gap = 16; // in px
-        activeClass = true;
-        itemProps = {
-          width: 0,
-          left: 0,
-        };
+      // scroll to top
+      window.onscroll = function () {
+        toggleScrollToTopButton();
+      };
 
-        constructor(element) {
-          this.element = element;
-          this.items = document.querySelectorAll(".carousel__item");
-          this.nav = element.parentElement.querySelectorAll(
-            ".carousel__nav__item"
-          );
-          this.init();
-        }
-
-        async init() {
-          await this.setMinItems();
-
-          this.itemProps.width = await this.getSize();
-          this.element.style.height = this.items[0].clientHeight + "px";
-
-          // Add event listener to buttons
-          for (let i = 0; i < this.nav.length; i++) {
-            let currentNavElement = this.nav[i];
-            this.nav[i].addEventListener("click", () =>
-              this.moveHandler(currentNavElement)
-            );
-          }
-
-          // update nodelist
-          this.nav = this.element.parentElement.querySelector(".carousel__nav");
-          await this.build();
-        }
-
-        async setMinItems() {
-          const minItems = this.size + 2;
-          if (this.items.length < minItems) {
-            let currentLength = this.items.length;
-            for (let i = 0; i < currentLength; i++) {
-              let clonedItem = this.items[i].cloneNode(true);
-              this.element.append(clonedItem);
-            }
-            this.items = document.querySelectorAll(".carousel__item");
-          }
-        }
-
-        async getSize() {
-          let totalSpacing = this.gap * (this.size - 1); // no need to space for last element
-          let width = this.element.clientWidth - totalSpacing; // width without scrollbar
-          width = width / this.size;
-
-          return width;
-        }
-
-        async build() {
-          for (let i = 0; i < this.items.length; i++) {
-            this.items[i].style.width = this.itemProps.width + "px";
-            // (i - 1) so we start with second item and get clean animation (hides shifting)
-            this.items[i].style.left =
-              (this.itemProps.width + this.gap) * (i - 1) + "px";
-          }
-          if (this.activeClass) {
-            this.setActiveClass();
-          }
-
-          this.toString(this.items);
-        }
-
-        async move(pos) {
-          let item = 0;
-
-          // Assign cloned item
-          if (pos === "next") {
-            item = this.items[0];
-          } else {
-            item = this.items[this.items.length - 1];
-          }
-
-          let clonedItem = item.cloneNode(true);
-
-          if (pos === "next") {
-            this.element.append(clonedItem);
-          } else {
-            this.element.prepend(clonedItem);
-          }
-          item.remove();
-          // Since NodeList and static update it
-          this.items = document.querySelectorAll(".carousel__item");
-        }
-
-        async next() {
-          this.move("next");
-          this.build();
-        }
-
-        async prev() {
-          this.move("prev");
-          this.build();
-        }
-
-        async setActiveClass() {
-          let mean = Math.round(this.size / 2);
-          for (let i = 0; i < this.items.length; i++) {
-            this.items[i].classList.remove("carousel__item--active");
-            if (i === mean) {
-              this.items[i].classList.add("carousel__item--active");
-            }
-          }
-        }
-
-        async moveHandler(element) {
-          if (!this.buttonDisabled) {
-            // Disabled button to prevent spam clicking
-            this.buttonDisabled = true;
-            let direction = element.getAttribute("data-direction");
-            if (direction === "next") {
-              this.next();
-            } else {
-              this.prev();
-            }
-            setTimeout(() => (this.buttonDisabled = false), 800);
-          }
+      function toggleScrollToTopButton() {
+        var button = document.getElementById("scrollToTopBtn");
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          button.style.display = "block";
+        } else {
+          button.style.display = "none";
         }
       }
 
-      const element = document.querySelector(".carousel");
-      new Carousel(element);
- 
-      // scroll to top
-window.onscroll = function () {
-  toggleScrollToTopButton();
-};
+      // Scroll to top functionality
+      function scrollToTop() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+      }
+      // Carousel
+      var swiper = new Swiper(".slide-content", {
+        slidesPerView: 3,
+        spaceBetween: 25,
+        loop: true,
+        centerSlide: "true",
+        fade: "true",
+        grabCursor: "true",
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          dynamicBullets: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
 
-function toggleScrollToTopButton() {
-  var button = document.getElementById("scrollToTopBtn");
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    button.style.display = "block";
-  } else {
-    button.style.display = "none";
-  }
-}
-
-// Scroll to top functionality
-function scrollToTop() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
-}
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          520: {
+            slidesPerView: 2,
+          },
+          950: {
+            slidesPerView: 3,
+          },
+        },
+      });
     </script>
   </body>
 </html>
