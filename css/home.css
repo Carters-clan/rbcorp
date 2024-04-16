@@ -200,7 +200,6 @@
         color: #fff;
         text-align: center;
         line-height: 60px;
-        background-color: blueviolet;
 
         -webkit-transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
         -moz-transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
@@ -240,7 +239,6 @@
 
     .backdrop:hover~.acc_cBox>.acc_cImg>header,
     .state:checked~.acc_cBox>.acc_cImg>header {
-      background-color: blueviolet;
 
       h3,
       h4 {
@@ -323,7 +321,6 @@
   font-size: 3vw;
   margin: auto;
   text-align: center !important;
-  /* justify-content: center; */
   transform: rotate(90deg);
   top: 15%;
   -webkit-transition: all 500ms ease;
@@ -410,7 +407,9 @@
 .beyonist {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('/Images/beyonist-acc.jpg');
+    url('/Images/beyonist-acc.webp');
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url('https://img.freepik.com/free-vector/world-environment-day-paper-style-background_23-2149394152.jpg?size=626&ext=jpg&ga=GA1.1.1768840327.1706941478&semt=ais'); */
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -523,7 +522,9 @@
 
 .finance {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('/Images/finance-\(RB-Corp\).jpg');
+    url('/Images/finance-acc.webp');
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://img.freepik.com/free-vector/world-environment-day-paper-style-background_23-2149394152.jpg?size=626&ext=jpg&ga=GA1.1.1768840327.1706941478&semt=ais'); */
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -545,7 +546,9 @@ textarea {
 
 .charity {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/Images/charity-acc.jpg);
+    url('/Images/charity-acc.webp');
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('https://img.freepik.com/free-vector/world-environment-day-paper-style-background_23-2149394152.jpg?size=626&ext=jpg&ga=GA1.1.1768840327.1706941478&semt=ais'); */
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -553,15 +556,19 @@ textarea {
 
 .buffet {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('/Images/buffet-acc.jpg');
-  background-size: cover;
+    url('/Images/buffet-acc.webp');
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('https://img.freepik.com/free-vector/world-environment-day-paper-style-background_23-2149394152.jpg?size=626&ext=jpg&ga=GA1.1.1768840327.1706941478&semt=ais'); */
+    background-size: cover;
   background-position: center center;
   background-attachment: fixed;
 }
 
 .service {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('/Images/service-acc.jpg');
+    url('/Images/service-acc.webp');
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('https://img.freepik.com/free-vector/world-environment-day-paper-style-background_23-2149394152.jpg?size=626&ext=jpg&ga=GA1.1.1768840327.1706941478&semt=ais'); */
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;

@@ -56,7 +56,7 @@
   }
 
   .blog-hero-content p {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -107,11 +107,12 @@ input {
   border-radius: 8px;
   padding: 10px;
 }
+
 @media screen and (max-width:380px) {
   input {
     width: 250px;
   }
-  
+
 }
 
 .search-container {
@@ -146,6 +147,7 @@ input {
 
 .card {
   border-radius: 25px;
+  border: none !important;
   background-color: yellow;
 }
 

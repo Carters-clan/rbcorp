@@ -101,6 +101,22 @@ header:after {
   box-shadow: 0px 2px 20px 2px rgba(56, 52, 78, 0.5);
 }
 
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+
+  .navbar .nav-item:hover .nav-link {}
+
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
+
 .footer {
   background: rgb(1, 12, 63) !important;
 }
@@ -142,7 +158,7 @@ header:after {
 }
 
 .ftr-icon-x:hover {
-  color: #eee !important;
+  color: grey !important;
   scale: 1.5;
 }
 
