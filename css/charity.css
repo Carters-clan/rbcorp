@@ -164,7 +164,7 @@ button.btn:hover {
     color: #fff;
     display: flex;
     align-items: flex-end;
-    background: url(/Images/charity\ 5.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Images/charity\ 5.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -177,7 +177,7 @@ button.btn:hover {
     color: #fff;
     display: flex;
     align-items: flex-end;
-    background: url('/Images/DSC01126\ \(1\).JPG');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Images/DSC01126\ \(1\).JPG');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -190,7 +190,7 @@ button.btn:hover {
     color: #fff;
     display: flex;
     align-items: flex-end;
-    background: url('/Images/charity\ 6.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Images/charity\ 6.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -205,7 +205,7 @@ button.btn:hover {
     color: #fff;
     display: flex;
     align-items: flex-end;
-    background: url('/Images/charity\ 7.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Images/charity\ 7.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

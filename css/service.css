@@ -181,7 +181,7 @@
     color: #fff;
     display: flex;
     align-items: flex-end;
-    background: url('/Images/Chef\ 5.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Images/Chef\ 5.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -194,7 +194,7 @@
     color: #fff;
     display: flex;
     align-items: flex-end;
-    background: url(/Images/chef\ 2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Images/chef\ 2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -207,7 +207,7 @@
     color: #fff;
     display: flex;
     align-items: flex-end;
-    background: url(/Images/tailor.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Images/tailor.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -222,7 +222,7 @@
     color: #fff;
     display: flex;
     align-items: flex-end;
-    background: url(/Images/driver2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Images/driver2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
