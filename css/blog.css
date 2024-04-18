@@ -159,6 +159,10 @@ input {
   padding: 10px 14px;
 }
 
+.name{
+  z-index: 5;
+}
+
 .image-content {
   position: relative;
   row-gap: 5px;
