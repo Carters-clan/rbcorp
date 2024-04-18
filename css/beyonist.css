@@ -158,7 +158,7 @@ button.btn {
     display: flex;
     align-items: flex-end;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(/images/s.jpeg);
+        url('/Images/s.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -172,7 +172,7 @@ button.btn {
     display: flex;
     align-items: flex-end;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(/images/p.jpeg);
+        url('/Images/p.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -186,7 +186,7 @@ button.btn {
     display: flex;
     align-items: flex-end;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url(/images/o.jpeg);
+        url('/Images/o.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -201,7 +201,7 @@ button.btn {
     display: flex;
     align-items: flex-end;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-     url('/Images/h.jpeg');
+        url('/Images/h.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
