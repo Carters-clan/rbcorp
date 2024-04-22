@@ -9,6 +9,7 @@
 .contact3 {
     margin-left: 8rem;
 }
+
 /* career hero start */
 .career-hero {
     position: relative;
@@ -72,3 +73,16 @@
 }
 
 /* career hero end */
+@media screen and (max-width : 768px) {
+    .career {
+        text-align: center;
+    }
+
+    .text-2xl {
+        text-align: center;
+    }
+
+    .career-text {
+        text-align: center;
+    }
+}
